@@ -1,0 +1,105 @@
+export const vacunas = [
+    {
+      edad: 'Recién nacido',
+      edadMeses: 0,
+      vacunas: [
+        { nombre: 'Hepatitis B (dosis 1)', abreviacion: 'HVB (RNO)' },
+        { nombre: 'Tuberculosis meníngea (dosis 1)', abreviacion: 'BCG (RNO)' },
+      ],
+    },
+    {
+      edad: '2 meses',
+      edadMeses: 2,
+      vacunas: [
+        { nombre: 'Hepatitis B (dosis 2)' },
+        { nombre: 'Tétanos (dosis 1)' },
+        { nombre: 'Tos convulsiva (dosis 1)' },
+        { nombre: 'Haemophilus tipo B (dosis 1)' },
+        { nombre: 'Difteria (dosis 1)' },
+        { nombre: 'Poliomielitis (dosis 1)' },
+        { nombre: 'Neumonía (dosis 1)' },
+        { nombre: 'Meningitis (dosis 1)' },
+        { nombre: 'Otitis media (dosis 1)' },
+        { nombre: 'Diarrea por rotavirus (dosis 1)' },
+      ],
+    },
+    {
+      edad: '4 meses',
+      edadMeses: 4,
+      vacunas: [
+        { nombre: 'Hepatitis B (dosis 3)' },
+        { nombre: 'Tétanos (dosis 2)' },
+        { nombre: 'Tos convulsiva (dosis 2)' },
+        { nombre: 'Haemophilus tipo B (dosis 2)' },
+        { nombre: 'Difteria (dosis 2)' },
+        { nombre: 'Poliomielitis (dosis 2)' },
+        { nombre: 'Neumonía (dosis 2)' },
+        { nombre: 'Meningitis (dosis 2)' },
+        { nombre: 'Otitis media (dosis 2)' },
+        { nombre: 'Diarrea por rotavirus (dosis 2)' },
+      ],
+    },
+    {
+      edad: '6 meses',
+      edadMeses: 6,
+      vacunas: [
+        { nombre: 'Hepatitis B (dosis 4)' },
+        { nombre: 'Tétanos (dosis 3)' },
+        { nombre: 'Tos convulsiva (dosis 3)' },
+        { nombre: 'Haemophilus tipo B (dosis 3)' },
+        { nombre: 'Difteria (dosis 3)' },
+        { nombre: 'Poliomielitis (dosis 3)' },
+      ],
+    },
+    {
+      edad: '7 meses',
+      edadMeses: 7,
+      vacunas: [
+        { nombre: 'Influenza A (H1N1) (dosis 1)' },
+        { nombre: 'Influenza A (H3N2) (dosis 1)' },
+        { nombre: 'Influenza por virus tipo B (dosis 1)' },
+      ],
+    },
+    {
+      edad: '12 meses',
+      edadMeses: 12,
+      vacunas: [
+        { nombre: 'Neumonía (dosis 3)' },
+        { nombre: 'Meningitis (dosis 3)' },
+        { nombre: 'Otitis media (dosis 3)' },
+        { nombre: 'Sarampión (dosis 1)' },
+        { nombre: 'Paperas (dosis 1)' },
+        { nombre: 'Rubéola (dosis 1)' },
+        { nombre: 'Varicela (dosis 1)' },
+      ],
+    },
+    {
+      edad: '15 meses',
+      edadMeses: 15,
+      vacunas: [{ nombre: 'Fiebre amarilla (dosis 1)' }],
+    },
+    {
+      edad: '18 meses',
+      edadMeses: 18,
+      vacunas: [
+        { nombre: 'Sarampión (dosis 2)' },
+        { nombre: 'Paperas (dosis 2)' },
+        { nombre: 'Rubéola (dosis 2)' },
+        { nombre: 'Poliomielitis (dosis 4)' },
+        { nombre: 'Tétanos (dosis 4)' },
+        { nombre: 'Tos convulsiva (dosis 4)' },
+        { nombre: 'Difteria (dosis 4)' },
+      ],
+    },
+    {
+      edad: '4 años',
+      edadMeses: 48,
+      vacunas: [
+        { nombre: 'Poliomielitis (dosis 5)' },
+        { nombre: 'Tétanos (dosis 5)' },
+        { nombre: 'Tos convulsiva (dosis 5)' },
+        { nombre: 'Difteria (dosis 5)' },
+      ],
+    },
+  ];
+  
