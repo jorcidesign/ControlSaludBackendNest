@@ -6,7 +6,7 @@ import { CreateEmailDto } from './dto/create-email.dto';
 export class EmailController {
   constructor(private readonly emailService: EmailService) {}
 
-  @Post('send-test-email')
+  @Post('send-email') 
   async sendTestEmail(@Body() createEmailDto: CreateEmailDto): Promise<string> {
     return this.emailService.sendTestEmail(createEmailDto);
   }
