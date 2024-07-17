@@ -4,7 +4,4 @@ export class CreateEmailDto {
   @IsEmail()
   @IsNotEmpty()
   to_email: string;
-
-  @IsNotEmpty()
-  text: string;
 }
