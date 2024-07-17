@@ -12,7 +12,7 @@ import { NotificacionesModule } from './notificaciones/notificaciones.module';
 import { AuthModule } from './auth/auth.module';
 import { CommonModule } from './common/common.module';
 import { ImcModule } from './imc/imc.module';
-
+import { EmailModule } from './email/email.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
@@ -20,8 +20,8 @@ import { ImcModule } from './imc/imc.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres', // Reemplaza con tu usuario de PostgreSQL
-      password: 'new_password', // Reemplaza con tu contraseña de PostgreSQL
-      database: 'software_control_salud', // Reemplaza con tu nombre de base de datos
+      password: 'M@nicero1997.', // Reemplaza con tu contraseña de PostgreSQL
+      database: 'bd_app_salud', // Reemplaza con tu nombre de base de datos
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: false,
     }),
@@ -35,6 +35,7 @@ import { ImcModule } from './imc/imc.module';
     AuthModule,
     CommonModule,
     ImcModule,
+    EmailModule,
   ],
   controllers: [AppController],
   providers: [AppService],
